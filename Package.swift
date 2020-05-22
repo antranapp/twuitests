@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "twuitests",
+    name: "TWUITests",
     platforms: [
         .iOS(.v9)
     ],
     products: [
         .library(
-            name: "twuitests",
+            name: "TWUITests",
             targets: ["TWUITests"]),
     ],
     dependencies: [
