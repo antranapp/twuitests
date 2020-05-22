@@ -19,6 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "TWUITests",
+            dependencies: ["Swifter"],
             path: "TWUITests"),
     ]
 )
